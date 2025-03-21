@@ -1,0 +1,12 @@
+
+!Assets/
+!Assets/**
+
+Assets/*.meta
+Assets/**/*.meta
+Assets/**/*.csproj
+Assets/**/*.user
+Assets/**/obj/
+Assets/**/Library/
+Assets/**/Temp/
+Assets/**/Logs/
