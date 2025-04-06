@@ -1,0 +1,18 @@
+{
+  "Items": [
+    {
+      "dialogue": "The forge is yours now. May your steel never bend.",
+      "answer1": {
+        "answerText": "Good!",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": null,
+      "answer3": null,
+      "answer4": null
+    }
+  ]
+}

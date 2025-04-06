@@ -1,0 +1,26 @@
+{
+  "Items": [
+    {
+      "dialogue": "BUSINESSTITLE is yours for BUSINESSPRICE. With it, you control the town’s flour and fate.",
+      "answer1": {
+        "answerText": "I'll buy it.",
+        "action": 3,
+        "check": 1,
+        "answerFolder": "Purchase",
+        "answerDialogue": "Purchase_answer1",
+        "negativeAnswerFolder": "Purchase",
+        "negativeAnswerDialogue": "Purchase_answer2"
+      },
+      "answer2": {
+        "answerText": "Nevermind.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": null,
+      "answer4": null
+    }
+  ]
+}

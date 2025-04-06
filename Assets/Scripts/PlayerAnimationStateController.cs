@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using Cinemachine;
 
 public enum Direction { UP, DOWN, LEFT, RIGHT }
 
@@ -16,6 +17,9 @@ public class PlayerAnimationStateController : AnimationStateController
     bool forwardBlocked, backBlocked, rightBlocked, leftBlocked;
     private float g = 0, gtimer;
 
+    [SerializeField] CinemachineVirtualCamera vcam;
+    [SerializeField] CinemachineBasicMultiChannelPerlin noise;
+
     public override void Start()
     {
         Cursor.lockState = CursorLockMode.Confined;
@@ -28,6 +32,7 @@ public class PlayerAnimationStateController : AnimationStateController
         AttackDirectionHash = Animator.StringToHash("AttackDirection");
         hitHash = Animator.StringToHash("isHit");
         HitTypeHash = Animator.StringToHash("HitType");
+        noise = vcam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
     }
 
     public override void Update()
@@ -300,13 +305,20 @@ public class PlayerAnimationStateController : AnimationStateController
         {
             if (Input.GetKey(KeyCode.S))
             {
-                if (VelocityZ > -0.5f)
+                if (Input.GetKey(KeyCode.LeftShift))
                 {
-                    VelocityZ -= Time.deltaTime * GetAcceleration(acceleration / 2);
+                    VelocityZ -= Time.deltaTime * GetAcceleration(acceleration);
                 }
                 else
                 {
-                    VelocityZ = -0.5f;
+                    if (VelocityZ > -0.5f)
+                    {
+                        VelocityZ -= Time.deltaTime * GetAcceleration(acceleration / 2);
+                    }
+                    else
+                    {
+                        VelocityZ = -0.5f;
+                    }
                 }
             }
             else
@@ -323,26 +335,54 @@ public class PlayerAnimationStateController : AnimationStateController
         }
         if (Input.GetKey(KeyCode.A))
         {
-            if (VelocityX > 0)
+            if (Input.GetKey(KeyCode.LeftShift))
             {
                 VelocityX -= Time.deltaTime * GetAcceleration(acceleration);
             }
             else
             {
-                VelocityX -= Time.deltaTime * GetAcceleration(acceleration / 2);
+                if (VelocityX > 0)
+                {
+                    VelocityX -= Time.deltaTime * GetAcceleration(acceleration);
+                }
+                else
+                {
+                    if (VelocityX > -0.5f)
+                    {
+                        VelocityX -= Time.deltaTime * GetAcceleration(acceleration);
+                    }
+                    else
+                    {
+                        VelocityX += Time.deltaTime * deceleration;
+                    }
+                }
             }
         }
         else
         {
             if (Input.GetKey(KeyCode.D))
             {
-                if (VelocityX < 0)
+                if (Input.GetKey(KeyCode.LeftShift))
                 {
                     VelocityX += Time.deltaTime * GetAcceleration(acceleration);
                 }
                 else
                 {
-                    VelocityX += Time.deltaTime * GetAcceleration(acceleration / 2);
+                    if (VelocityX < 0)
+                    {
+                        VelocityX += Time.deltaTime * GetAcceleration(acceleration);
+                    }
+                    else
+                    {
+                        if (VelocityX < 0.5f)
+                        {
+                            VelocityX += Time.deltaTime * GetAcceleration(acceleration);
+                        }
+                        else
+                        {
+                            VelocityX -= Time.deltaTime * deceleration;
+                        }
+                    }
                 }
             }
             else
@@ -357,6 +397,48 @@ public class PlayerAnimationStateController : AnimationStateController
                 }
             }
         }
+    }
+
+    public override void HitReceived(int hitType, Direction hitDirection)
+    {
+        if (!isHit)
+        {
+            if (isBlocking)
+            {
+                if (SameDirection(hitDirection))
+                {
+                    return;
+                }
+            }
+            if (hitType == 1)
+            {
+                if (noise.m_AmplitudeGain < 0.1f)
+                    StartCoroutine(_ProcessShake(3f, 0.25f));
+            }
+            OnHitEnd(); //turn attack state off
+            isHit = true;
+            VelocityX = 0;
+            VelocityZ = 0;
+            anim.SetBool(hitHash, true);
+            anim.SetInteger(HitTypeHash, hitType);
+        }
+    }
+
+    private IEnumerator _ProcessShake(float shakeIntensity = 5f, float shakeTiming = 0.5f)
+    {
+        Noise(1, shakeIntensity);
+        yield return new WaitForSeconds(shakeTiming);
+        Noise(0, 0);
+    }
+
+    public void Noise(float amplitudeGain, float frequencyGain)
+    {
+        if (noise == null)
+        {
+            noise = vcam.gameObject.AddComponent<CinemachineBasicMultiChannelPerlin>();
+        }
+        noise.m_AmplitudeGain = amplitudeGain;
+        noise.m_FrequencyGain = frequencyGain;
     }
 
     public override void ToggleHit()

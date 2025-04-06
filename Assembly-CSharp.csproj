@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2022_3_49;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;DOTWEEN;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_49;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;DOTWEEN;UNITY_POST_PROCESSING_STACK_V2;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_INSPECTOR_3_2;ODIN_INSPECTOR_3_3;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -72,27 +72,143 @@
     <Analyzer Include="C:\Users\nasty\PetProject\Library\PackageCache\com.unity.entities@1.3.10\Unity.Entities\SourceGenerators\SystemGenerator.Common.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GlobalMap\NPCs\CaravanScript.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\SaloGUID.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\GlobalTownManager.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\PopupScript.cs" />
     <Compile Include="Assets\Scripts\HumanEntity.cs" />
+    <Compile Include="Assets\FogOfWar\Source files\Scripts\Fow_Script2D.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\FactionScript.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\Entities\Village.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\TerrainTextureChanger.cs" />
+    <Compile Include="Assets\Scripts\SerializedSingleton.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\VillagerUIManager.cs" />
     <Compile Include="Assets\Scripts\BodyPart.cs" />
+    <Compile Include="Assets\TrueClouds\ExampleScenes\Scenes\Sky\CloudsGenerator.cs" />
+    <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\FPS60.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\TownUI.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\EncryptManager.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Singleton.cs" />
+    <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\ScriptPerformanceMeasure.cs" />
+    <Compile Include="Assets\TrueClouds\Scripts\CloudsReadonlyAttribute.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\JsonReader.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\Entities\Modifier.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\VillagerUI.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\TexturesContainer.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\Entities\Town.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\PopupItemScript.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\InterfaceHandler.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\SaloHelper.cs" />
+    <Compile Include="Assets\FogOfWar\Source files\Scripts\Fow_Script.cs" />
     <Compile Include="Assets\Scripts\BattleNPCScript.cs" />
+    <Compile Include="Assets\TrueClouds\Scripts\CloudCamera.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\Entities\BusinessProductionProfile.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\SaloObject.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\TownUIManagerController.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\BusinessProductionManager.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\Entities\Inventory.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\GlobalBattleManager.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\CameraController.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\MakeCellTypeInsteadOfCellType.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\BanditHideoutManager.cs" />
     <Compile Include="Assets\Scripts\AnimationStateController.cs" />
+    <Compile Include="Assets\Scripts\JsonHelpers\Locale.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\Entities\Morale.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\BusinessOptionUI.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\NPCs\GuardScript.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\BusinessUI.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\SaloGUIDManager.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\VillageManager.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\FixCulture.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\Interfaces\ISaloObject.cs" />
+    <Compile Include="Assets\FogOfWar\Source files\Scripts\FowUnit.cs" />
     <Compile Include="Assets\MicroWorld\Demo\Scripts\FreeCameraChar.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\TownUIManager.cs" />
     <Compile Include="Assets\MicroWorld\Demo\Scripts\SimpleInfiniteWorldGateManager.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\EscapeHelper.cs" />
+    <Compile Include="Assets\Scripts\JsonHelpers\JsonHelper.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\InterfaceElement.cs" />
+    <Compile Include="Assets\TrueClouds\Scripts\CloudCamera3D.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\Entities\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\GlobalInterfaceHandler.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\DayNightHandler.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\TimeScaleController.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimationStateController.cs" />
+    <Compile Include="Assets\TrueClouds\Scripts\CloudPointLight.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\NPCs\BanditScript.cs" />
+    <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\FPSDisplay.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\XSaveHelper.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\SaloScene.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\SerializableGUID.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\SaveLoadManager.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\HeroIndicator.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\InventoryItemUI.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\Entities\Faction.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\WaitFor.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\Entities\Business.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\UI\EmployeeUI.cs" />
     <Compile Include="Assets\Scripts\MapGenerationScript.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\MakeCellTypeNearSomeCellType.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\SeasonsHandler.cs" />
+    <Compile Include="Assets\Scripts\SaLoManager\SerialDictionary\SerializableDictionary.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\NPCs\VillagerScript.cs" />
+    <Compile Include="Assets\Scripts\CSVParsing.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\TownManager.cs" />
     <Compile Include="Assets\MicroWorld\Demo\Scripts\TeleportPlayerToGate.cs" />
+    <Compile Include="Assets\Scripts\GlobalMap\MakeCampsFarFromCivilization.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TrueClouds\Resources\Shaders\Depth.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsPointLight.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintSubtractiveTwosided.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\BlurHQ.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintAdditive.shader" />
     <None Include="Assets\MicroWorld\Content\Trees\Common\TreeCreatorLeavesDoubleSide.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\MicroWorld\Readme.txt" />
     <None Include="Assets\MicroWorld\Content\Trees\Common\TreeCreatorLeavesFastDoubleSide.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintSubtractive.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\DepthBlur.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintTransparentTwosided.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\ClearColor.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\MicroWorld\Shaders\HDRP\Wind HDRP.cginc" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Normal.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintAdditiveTwosided.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\BlurFast.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\MicroWorld\Shaders\URP\Fade.cginc" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintTransparent.shader" />
     <None Include="Assets\MicroWorld\Shaders\Built-in\Foliage.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\MicroWorld\Shaders\URP\Wind.cginc" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTint.cginc" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Clouds.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Blur.shader" />
     <None Include="Assets\MicroWorld\Credits.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\FogOfWar\readme.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\MicroWorld\Content\Water\BuiltIn\Water.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\CloudsDepth.cginc" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -431,6 +547,10 @@
       <HintPath>Library\PackageCache\com.unity.entities@1.3.10\Unity.Entities.CodeGen\Unity.Cecil.Awesome.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Sirenix.Reflection.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@2.5.3\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -443,8 +563,28 @@
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Serialization.Config">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.IO.Hashing">
       <HintPath>Library\PackageCache\com.unity.collections@2.5.3\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Utilities">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DOTween">
@@ -453,6 +593,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Utilities.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
@@ -987,6 +1131,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.Entities.Build.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Entities.Hybrid">
       <HintPath>Library\ScriptAssemblies\Unity.Entities.Hybrid.dll</HintPath>
       <Private>False</Private>
@@ -1015,8 +1163,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Entities.Hybrid.HybridComponents">
@@ -1027,12 +1175,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Deformations">
@@ -1147,12 +1295,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Entities.UI">
@@ -1228,6 +1376,10 @@
     <ProjectReference Include="PackageTools.csproj">
       <Project>{26B5AB7B-2B1C-F4F4-6DF8-1214ECB28A02}</Project>
       <Name>PackageTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
+      <Project>{597A3F9E-4402-8F78-16AF-07F4A6777544}</Project>
+      <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
     </ProjectReference>
     <ProjectReference Include="MicroWorld.csproj">
       <Project>{232B9B35-C5B1-97CE-9072-DF2DA7723A79}</Project>

@@ -1,0 +1,194 @@
+[
+  {
+    "policyID": "foundation_efficiency",
+    "tier": 1,
+    "title": "Efficient Workflow",
+    "description": "+10% production speed.",
+    "effectType": "ProductionMultiplier",
+    "effectValue": 1.1,
+    "applicableBusinessTypes": [
+      "BUTCHERY",
+      "SMITHY",
+      "TAVERN",
+      "TAILOR",
+      "CANDLESHOP",
+      "MILL"
+    ]
+  },
+  {
+    "policyID": "foundation_earlyhours",
+    "tier": 1,
+    "title": "Early Hours",
+    "description": "Opens earlier, small passive income bonus.",
+    "effectType": "UniqueEffect",
+    "effectValue": 0.05,
+    "applicableBusinessTypes": [
+      "BUTCHERY",
+      "SMITHY",
+      "TAVERN",
+      "TAILOR",
+      "CANDLESHOP",
+      "MILL"
+    ]
+  },
+  {
+    "policyID": "foundation_resourceful",
+    "tier": 1,
+    "title": "Resourceful Management",
+    "description": "-10% input material consumption.",
+    "effectType": "MaterialEfficiency",
+    "effectValue": 0.9,
+    "applicableBusinessTypes": [
+      "BUTCHERY",
+      "SMITHY",
+      "TAVERN",
+      "TAILOR",
+      "CANDLESHOP",
+      "MILL"
+    ]
+  },
+  {
+    "policyID": "staff_training",
+    "tier": 2,
+    "title": "Extended Training",
+    "description": "Employees gain +5% efficiency.",
+    "effectType": "ProductionMultiplier",
+    "effectValue": 1.05,
+    "applicableBusinessTypes": [
+      "BUTCHERY",
+      "SMITHY",
+      "TAVERN",
+      "TAILOR",
+      "CANDLESHOP",
+      "MILL"
+    ]
+  },
+  {
+    "policyID": "staff_extra_hands",
+    "tier": 2,
+    "title": "Extra Pair of Hands",
+    "description": "+1 max employee (not key worker).",
+    "effectType": "AddMaxEmployee",
+    "effectValue": 1,
+    "applicableBusinessTypes": [
+      "BUTCHERY",
+      "SMITHY",
+      "TAVERN",
+      "TAILOR",
+      "CANDLESHOP",
+      "MILL"
+    ]
+  },
+  {
+    "policyID": "staff_morale",
+    "tier": 2,
+    "title": "Morale Boost",
+    "description": "Production increases slightly when salaries are fully paid.",
+    "effectType": "UniqueEffect",
+    "effectValue": 0.05,
+    "applicableBusinessTypes": [
+      "BUTCHERY",
+      "SMITHY",
+      "TAVERN",
+      "TAILOR",
+      "CANDLESHOP",
+      "MILL"
+    ]
+  },
+  {
+    "policyID": "econ_profit_focused",
+    "tier": 3,
+    "title": "Profit Focused",
+    "description": "+15% profit, -5% reinvested income.",
+    "effectType": "ProfitMultiplier",
+    "effectValue": 1.15,
+    "applicableBusinessTypes": [
+      "BUTCHERY",
+      "SMITHY",
+      "TAVERN",
+      "TAILOR",
+      "CANDLESHOP",
+      "MILL"
+    ]
+  },
+  {
+    "policyID": "econ_reinvest",
+    "tier": 3,
+    "title": "Sustainable Reinvestment",
+    "description": "+10% reinvest income cap.",
+    "effectType": "UniqueEffect",
+    "effectValue": 0.1,
+    "applicableBusinessTypes": [
+      "BUTCHERY",
+      "SMITHY",
+      "TAVERN",
+      "TAILOR",
+      "CANDLESHOP",
+      "MILL"
+    ]
+  },
+  {
+    "policyID": "econ_selective",
+    "tier": 3,
+    "title": "Selective Crafting",
+    "description": "Only craft highest margin product.",
+    "effectType": "UniqueEffect",
+    "effectValue": 1,
+    "applicableBusinessTypes": [
+      "BUTCHERY",
+      "SMITHY",
+      "TAVERN",
+      "TAILOR",
+      "CANDLESHOP",
+      "MILL"
+    ]
+  },
+  {
+    "policyID": "mastery_allin",
+    "tier": 5,
+    "title": "All-In Strategy",
+    "description": "+20% output, but +25% employee salaries.",
+    "effectType": "UniqueEffect",
+    "effectValue": 1.2,
+    "applicableBusinessTypes": [
+      "BUTCHERY",
+      "SMITHY",
+      "TAVERN",
+      "TAILOR",
+      "CANDLESHOP",
+      "MILL"
+    ]
+  },
+  {
+    "policyID": "mastery_frugal",
+    "tier": 5,
+    "title": "Frugal Empire",
+    "description": "-20% employee salaries, -10% output.",
+    "effectType": "UniqueEffect",
+    "effectValue": 0.8,
+    "applicableBusinessTypes": [
+      "BUTCHERY",
+      "SMITHY",
+      "TAVERN",
+      "TAILOR",
+      "CANDLESHOP",
+      "MILL"
+    ]
+  },
+  {
+    "policyID": "mastery_market",
+    "tier": 5,
+    "title": "Market Integration",
+    "description": "Slight boost if town has Market policy.",
+    "effectType": "UniqueEffect",
+    "effectValue": 0.05,
+    "applicableBusinessTypes": [
+      "BUTCHERY",
+      "SMITHY",
+      "TAVERN",
+      "TAILOR",
+      "CANDLESHOP",
+      "MILL"
+    ]
+  }
+]

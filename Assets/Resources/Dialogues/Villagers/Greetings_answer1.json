@@ -1,0 +1,21 @@
+{
+  "Items": [
+    {
+      "dialogue": "We're from the village of FROM. We are taking our products to the market at DESTINATION. We have PRODUCTS",
+      "answer1": {
+        "answerText": "I'd like to trade with you.",
+        "action": 1,
+        "check": 0,
+        "answerFolder": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Safe travels.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "negativeAnswerFolder": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "Items": [
+    {
+      "businessType": "1",
+      "producesProducts": "true",
+      "money": 500,
+      "productionCap": 3,
+      "dailyMoneyCap": 500,
+      "title": "Meat House/The Butcher's Block/Wild Cuts/Fresh Chops/Fresh Cuts",
+      "description": "A butcher's shop where fresh meat is prepared daily, offering a variety of cuts to satisfy even the most discerning customers./Perfect for those who seek quality meats for feasts or everyday meals./A butcher's paradise, delivering the best meat in town./A local butcher who prides themselves on offering fresh cuts of meat every day./For those with an appetite for the finest meats, this butchery is a must-visit.",
+      "dialoguePath": "Dialogues/Businesses/BUTCHERY/",
+      "speaker": "Butcher",
+      "genericTitle": "Butchery",
+      "genericDescription": "Produces food products from wild game or livestock.",
+      "employees": [
+        {
+          "employeeName": "Butcher",
+          "initialPay": 120,
+          "salary": 10,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Apprentice",
+          "initialPay": 40,
+          "salary": 4,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "2",
+      "producesProducts": "true",
+      "money": 500,
+      "productionCap": 3,
+      "dailyMoneyCap": 500,
+      "title": "Iron Forge/The Smith's Hammer/Steelworks/The Anvil/The Blacksmith's Shop",
+      "description": "A forge where weapons, tools, and armor are crafted with precision and skill./The heart of craftsmanship where metal is shaped into powerful weapons./Providing quality smithing services for armor and weapon needs./Where metal meets fire to create the finest armor and weapons./Crafting tools, weapons, and armor with great care and skill for adventurers and townsfolk alike.",
+      "dialoguePath": "Dialogues/Businesses/SMITHY/",
+      "speaker": "Blacksmith",
+      "genericTitle": "Smithy",
+      "genericDescription": "Crafts weapons and tools from raw ores.",
+      "employees": [
+        {
+          "employeeName": "Blacksmith",
+          "initialPay": 150,
+          "salary": 12,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Apprentice",
+          "initialPay": 50,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "3",
+      "producesProducts": "false",
+      "money": 500,
+      "productionCap": 3,
+      "dailyMoneyCap": 500,
+      "title": "The Drunken Dragon/The Silver Tankard/The Thirsty Miner/The Boar's Head/The Mellow Mug",
+      "description": "A lively tavern that offers drinks and entertainment to travelers and townsfolk./A warm and inviting pub where stories are shared over drinks./The go-to place for locals and travelers seeking refreshment and camaraderie./A place to enjoy hearty food, great drinks, and even better company./Offering a cozy atmosphere with great food and lively spirits.",
+      "dialoguePath": "Dialogues/Businesses/TAVERN/",
+      "speaker": "Innkeeper",
+      "genericTitle": "Tavern",
+      "genericDescription": "Provides food and drinks to townsfolk and travelers.",
+      "employees": [
+        {
+          "employeeName": "Innkeeper",
+          "initialPay": 100,
+          "salary": 8,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Barmaid",
+          "initialPay": 30,
+          "salary": 3,
+          "efficiency": "MIDDLE",
+          "count": 0,
+          "maxCount": 3,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "4",
+      "producesProducts": "true",
+      "money": 500,
+      "productionCap": 3,
+      "dailyMoneyCap": 500,
+      "title": "The Clothier's Corner/Fine Threads/The Stitching Nook/Elegant Weaves/The Tailored Suit",
+      "description": "A fine establishment that creates clothing and garments for both practical use and high fashion./Offering expertly crafted clothes for all occasions./A tailor who provides the finest and most comfortable outfits./Where clothing is made with precision and care for the most discerning customers./Providing bespoke tailoring for those seeking quality and style.",
+      "dialoguePath": "Dialogues/Businesses/TAILOR/",
+      "speaker": "Master Tailor",
+      "genericTitle": "Tailor",
+      "genericDescription": "Creates clothing such as tunics, cloaks, and robes.",
+      "employees": [
+        {
+          "employeeName": "Master Tailor",
+          "initialPay": 120,
+          "salary": 10,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Apprentice",
+          "initialPay": 40,
+          "salary": 4,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "5",
+      "producesProducts": "true",
+      "money": 500,
+      "productionCap": 3,
+      "dailyMoneyCap": 500,
+      "title": "The Waxen Flame/The Scented Light/The Candle Maker/Flame & Glow/The Illuminated Path",
+      "description": "A small shop that specializes in creating candles of all shapes and scents./A peaceful shop filled with candles to brighten any room with fragrance./Crafting candles for both practical use and decorative appeal./Where wax meets wick to create beautiful, fragrant light./Offering a wide range of candles for every occasion, from scented to decorative.",
+      "dialoguePath": "Dialogues/Businesses/CANDLESHOP/",
+      "speaker": "Chandler",
+      "genericTitle": "Candle Shop",
+      "genericDescription": "Produces candles, potions, and herbal items.",
+      "employees": [
+        {
+          "employeeName": "Chandler",
+          "initialPay": 110,
+          "salary": 9,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Wax Worker",
+          "initialPay": 45,
+          "salary": 4,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "6",
+      "producesProducts": "true",
+      "money": 500,
+      "productionCap": 3,
+      "dailyMoneyCap": 500,
+      "title": "The Miller's Wheel/The Grain Grinder/The Flour Mill/The Harvest Grind/The Grain & Stone",
+      "description": "A flour mill that grinds wheat, barley, and other grains to create fine flour for bread, pastries, and other products./The heart of the town's baking and brewing community, providing fresh flour daily./Where grains are ground with care to produce the finest flour for all baking needs./A vital business that supports the creation of bread, cakes, and ale throughout the town./Offering high-quality milling services to ensure the finest grains for food production.",
+      "dialoguePath": "Dialogues/Businesses/MILL/",
+      "speaker": "Miller",
+      "genericTitle": "Mill",
+      "genericDescription": "Processes raw grain into flour.",
+      "employees": [
+        {
+          "employeeName": "Miller",
+          "initialPay": 130,
+          "salary": 10,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Handler",
+          "initialPay": 50,
+          "salary": 5,
+          "efficiency": "MIDDLE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    }
+  ]
+}

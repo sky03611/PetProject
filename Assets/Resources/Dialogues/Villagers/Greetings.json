@@ -1,0 +1,94 @@
+{
+  "Items": [
+    {
+      "dialogue": "Ah, another traveler on the road. May the earth beneath your feet guide you to safe places.",
+      "answer1": {
+        "answerText": "What do you have for sale?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Carry on with your travels. Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "negativeAnswerFolder": ""
+      }
+    },
+    {
+      "dialogue": "Welcome, stranger. We’re just folk, traveling to the next village. May the road be kind to you.",
+      "answer1": {
+        "answerText": "What do you have for sale?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Carry on with your travels. Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "negativeAnswerFolder": ""
+      }
+    },
+    {
+      "dialogue": "It’s rare to see new faces on these roads. Be safe, and may the winds be at your back.",
+      "answer1": {
+        "answerText": "What do you have for sale?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Carry on with your travels. Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "negativeAnswerFolder": ""
+      }
+    },
+    {
+      "dialogue": "Well met, traveler. The journey’s long, but the road ahead holds many stories, I’m sure.",
+      "answer1": {
+        "answerText": "What do you have for sale?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Carry on with your travels. Farewell.",
+        "action": 1,
+        "check": 0,
+        "answerFolder": "",
+        "negativeAnswerFolder": ""
+      }
+    },
+    {
+      "dialogue": "You’ve got a long way to go, friend. Stay cautious on these roads, and don’t mind the rough patches.",
+      "answer1": {
+        "answerText": "What do you have for sale?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Carry on with your travels. Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "negativeAnswerFolder": ""
+      }
+    }
+  ]
+}

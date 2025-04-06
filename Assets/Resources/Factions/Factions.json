@@ -1,0 +1,54 @@
+{
+  "Items": [
+    {
+        "name": "House Valsara",
+        "description": "A house built on the back of blood and steel. House Valsara has long stood as a bastion of justice, their warriors wielding both sword and law. They fight not just for power, but for the righteousness of the land they protect.",
+        "motto": "By sword and law, we bring justice."
+    },
+    {
+        "name": "House Draegor",
+        "description": "Born in the fire of battle, House Draegor knows only one thing: war. Their banner flutters over the bloodied fields, as their warriors fight with the fury of a thousand storms. To them, glory is found on the battlefield, not in halls of power.",
+        "motto": "Blood calls to blood."
+    },
+    {
+        "name": "House Elarion",
+        "description": "House Elarion is a house of words and treaties, with a reputation for forging alliances that hold the realm together. Their strength lies not in steel, but in wisdom and diplomacy, guiding the kingdom through troubled waters with careful hands.",
+        "motto": "Words bind stronger than chains."
+    },
+    {
+        "name": "House Valmont",
+        "description": "With silvered tongues and sharp minds, House Valmont weaves a web of influence through careful whispers and well-placed marriages. They may not carry the might of an army, but their network of allies can topple kings and make or break empires.",
+        "motto": "The web is spun in silence."
+    },
+    {
+        "name": "House Blackthorn",
+        "description": "A house of warriors who live for the fight, House Blackthorn’s knights ride like the wind and strike like thunder. Their iron will and undying loyalty to their own keep them steadfast, even when the world is against them.",
+        "motto": "Strike once, strike true."
+    },
+    {
+        "name": "House Ashford",
+        "description": "House Ashford stands for honor above all. Their knights ride to battle with a banner of justice in hand, vowing to protect the weak and ensure peace. They are the keepers of tradition, the last bastion against chaos.",
+        "motto": "Never falter, never break."
+    },
+    {
+        "name": "House Stormwall",
+        "description": "House Stormwall’s stronghold is the fortress of the realm’s last defense. They face the might of nature’s fury and the armies of invaders with equal resolve. No storm is too fierce, no enemy too great for the walls they guard.",
+        "motto": "No storm too great, no wall too high."
+    },
+    {
+        "name": "House Ravenshade",
+        "description": "The shadowed house of Ravenshade knows the power of secrecy. They act in silence, their agents lurking in the dark corners of the realm, gathering secrets and making enemies disappear without a trace. They strike from the shadows, never to be seen until it is too late.",
+        "motto": "We speak not, but our actions resound."
+    },
+    {
+        "name": "House Drakenhart",
+        "description": "House Drakenhart's name is known far and wide, not for its wealth or power, but for its legendary ancestor, the Dragonslayer. Long ago, a great hero of this house faced the last of the dragons, slaying it in a battle that changed the course of history. Their bloodline carries the weight of that heroic legacy.",
+        "motto": "In the shadow of the dragon, we stand unyielding."
+    },
+    {
+        "name": "House Goldcrest",
+        "description": "House Goldcrest is as rich in coin as they are in ambition. Their vaults are filled with gold, and their influence spans far and wide. While their warriors fight, it is their merchants and financiers who hold the true power, for gold can sway even the fiercest of foes.",
+        "motto": "With coin, we command."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "Items": [
+    {
+        "name": "Grain",
+        "minAmount": 1,
+        "maxAmount": 4,
+        "spawnChance": 700,
+        "type": 0
+    },
+    {
+        "name": "Deer Meat",
+        "minAmount": 1,
+        "maxAmount": 3,
+        "spawnChance": 40,
+        "type": 1
+    },
+    {
+        "name": "Deer Pelt",
+        "minAmount": 1,
+        "maxAmount": 2,
+        "spawnChance": 20,
+        "type": 1
+    },
+    {
+        "name": "Rabbit Fur",
+        "minAmount": 1,
+        "maxAmount": 3,
+        "spawnChance": 50,
+        "type": 1
+    },
+    {
+        "name": "Iron Ore",
+        "minAmount": 1,
+        "maxAmount": 2,
+        "spawnChance": 15,
+        "type": 2
+    },
+    {
+        "name": "Copper Ore",
+        "minAmount": 1,
+        "maxAmount": 3,
+        "spawnChance": 40,
+        "type": 2
+    },
+    {
+        "name": "Tin Ore",
+        "minAmount": 1,
+        "maxAmount": 3,
+        "spawnChance": 60,
+        "type": 2
+    },
+    {
+        "name": "Gems",
+        "minAmount": 1,
+        "maxAmount": 2,
+        "spawnChance": 10,
+        "type": 2
+    },
+    {
+        "name": "Ale",
+        "minAmount": 1,
+        "maxAmount": 3,
+        "spawnChance": 50,
+        "type": 3
+    },
+    {
+        "name": "Mead",
+        "minAmount": 1,
+        "maxAmount": 2,
+        "spawnChance": 30,
+        "type": 3
+    },
+    {
+        "name": "Wool",
+        "minAmount": 1,
+        "maxAmount": 4,
+        "spawnChance": 30,
+        "type": 4
+    },
+    {
+        "name": "Lamb Meat",
+        "minAmount": 1,
+        "maxAmount": 3,
+        "spawnChance": 25,
+        "type": 4
+    },
+    {
+        "name": "Linen",
+        "minAmount": 2,
+        "maxAmount": 4,
+        "spawnChance": 30,
+        "type": 4
+    },
+    {
+        "name": "Honey",
+        "minAmount": 1,
+        "maxAmount": 3,
+        "spawnChance": 30,
+        "type": 5
+    },
+    {
+        "name": "Beeswax",
+        "minAmount": 1,
+        "maxAmount": 2,
+        "spawnChance": 30,
+        "type": 5
+    }
+  ]
+}

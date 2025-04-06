@@ -1,0 +1,88 @@
+{
+  "Items": [
+    {
+      "dialogue": "Fresh cuts, fair prices. Step in before the best is gone.",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    },
+    {
+      "dialogue": "Mind the cleaver — and welcome! What brings you to my stall?",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    },
+    {
+      "dialogue": "Step carefully — it’s not just meat that ends up on the chopping block.",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    }
+  ]
+}

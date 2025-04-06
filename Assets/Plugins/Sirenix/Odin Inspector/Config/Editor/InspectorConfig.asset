@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1137305049, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: InspectorConfig
+  m_EditorClassIdentifier: 
+  enableOdinInInspector: 1
+  defaultEditorBehaviour: 11
+  processMouseMoveInInspector: 1
+  drawingConfig:
+    configs:
+    - DrawnTypeName: MicroWorldNS.AdjustMaterialViewDistance, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.AdjustObjectsPosition, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Dispatcher, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.FreeCameraChar, Assembly-CSharp
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.GameObjectVariator, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Gate, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.GpuMeshRenderer, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.HaltonSequence, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.LateDispatcher, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.MapGenerationScript, Assembly-CSharp
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.MicroWorld, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Migration, MicroWorldEditor
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.OnActivatedLauncher, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Preferences, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.SimpleInfiniteWorldGateManager, Assembly-CSharp
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.TeleportPlayerToGate, Assembly-CSharp
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.TextureVariator, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Tools, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Variant, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.BaseSpawner, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.BorderColliderSpawner, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.BuildingsSpawner, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.CellModifier, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.CellSpawner, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.GateSpawner, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.GrassSpawner, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.MapSpawner, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.RiverSpawner, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.RoadSpawner, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.RoomSpawner, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.SpawnedObjInfo, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.SpawnedPrefabInfo, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.SurfaceSpawner, MicroWorld
+      EditorTypeName: 
+    - DrawnTypeName: MicroWorldNS.Spawners.TerrainSpawner, MicroWorld
+      EditorTypeName: 

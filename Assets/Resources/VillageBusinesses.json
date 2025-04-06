@@ -1,0 +1,588 @@
+{
+  "Items": [
+    {
+      "isCoreBusiness": "true",
+      "businessType": "100",
+      "producesProducts": "true",
+      "money": 300,
+      "productionCap": 3,
+      "dailyMoneyCap": 300,
+      "villageType": 0,
+      "title": "Village Mill/Grain Grinder/Wheat Mill",
+      "description": "Where freshly harvested grain is milled into flour./Villagers bring in sacks of grain and leave with sacks of flour./The steady churn of the millstone fills the air.",
+      "dialoguePath": "Dialogues/VillageBusinesses/FARM_MILL/",
+      "speaker": "Miller",
+      "genericTitle": "Mill",
+      "genericDescription": "Processes grain into flour.",
+      "employees": [
+        {
+          "employeeName": "Miller",
+          "initialPay": 15,
+          "salary": 15,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Millhand",
+          "initialPay": 5,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "101",
+      "producesProducts": "true",
+      "money": 250,
+      "productionCap": 2,
+      "dailyMoneyCap": 250,
+      "villageType": 0,
+      "title": "Village Orchard/Fruit Grove/Apple Hill",
+      "description": "Fruits of all kinds, ripened under the sun, are gathered here./Villagers pick and pack fresh fruit from nearby trees./A peaceful stretch of land lined with orchards.",
+      "dialoguePath": "Dialogues/VillageBusinesses/ORCHARD/",
+      "speaker": "Grower",
+      "genericTitle": "Orchard",
+      "genericDescription": "Produces fruit for trade or food.",
+      "employees": [
+        {
+          "employeeName": "Grower",
+          "initialPay": 12,
+          "salary": 12,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Fruit Picker",
+          "initialPay": 4,
+          "salary": 4,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "102",
+      "producesProducts": "true",
+      "money": 250,
+      "productionCap": 2,
+      "dailyMoneyCap": 250,
+      "villageType": 0,
+      "title": "Vegetable Garden/Farmstead Patch/Grower's Lot",
+      "description": "Root vegetables and leafy greens are cultivated here./The village\u2019s lifeblood \u2014 crisp vegetables for markets and kitchens./Tended by hand, this patch feeds half the village.",
+      "dialoguePath": "Dialogues/VillageBusinesses/VEGETABLE_PATCH/",
+      "speaker": "Gardener",
+      "genericTitle": "Vegetable Patch",
+      "genericDescription": "Produces vegetables used for food or trade.",
+      "employees": [
+        {
+          "employeeName": "Gardener",
+          "initialPay": 12,
+          "salary": 12,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Farmhand",
+          "initialPay": 4,
+          "salary": 4,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "isCoreBusiness": "true",
+      "businessType": "103",
+      "producesProducts": "true",
+      "money": 300,
+      "productionCap": 3,
+      "dailyMoneyCap": 300,
+      "villageType": 1,
+      "title": "Hunting Lodge/Trapper's Shelter/Game Shack",
+      "description": "Small game and wild meat are brought in daily./Feathers and fur line the walls of this hunting lodge./The heart of every hunting village, busy at dawn.",
+      "dialoguePath": "Dialogues/VillageBusinesses/HUNTERS_HUT/",
+      "speaker": "Hunter",
+      "genericTitle": "Hunter's Lodge",
+      "genericDescription": "Collects meat, furs, and feathers from wild animals.",
+      "employees": [
+        {
+          "employeeName": "Hunter",
+          "initialPay": 15,
+          "salary": 15,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Tracker",
+          "initialPay": 5,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "104",
+      "producesProducts": "true",
+      "money": 250,
+      "productionCap": 2,
+      "dailyMoneyCap": 250,
+      "villageType": 1,
+      "title": "Tannery/Leather Works/Hide Stretch",
+      "description": "Where pelts and furs are treated for use in clothing and trade./The scent may be strong, but so is the output./Freshly scraped hides hang along wooden frames.",
+      "dialoguePath": "Dialogues/VillageBusinesses/TANNERY/",
+      "speaker": "Tanner",
+      "genericTitle": "Tannery",
+      "genericDescription": "Processes animal hides into leather.",
+      "employees": [
+        {
+          "employeeName": "Tanner",
+          "initialPay": 14,
+          "salary": 14,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Assistant",
+          "initialPay": 5,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "105",
+      "producesProducts": "true",
+      "money": 250,
+      "productionCap": 2,
+      "dailyMoneyCap": 250,
+      "villageType": 1,
+      "title": "Arrow Maker/Fletcher's Shed/Bowman's Bench",
+      "description": "Feathers and wood come together to make arrows for hunting or war./Bundles of sharpened shafts fill the racks./Silent but vital, this shop keeps bows stocked.",
+      "dialoguePath": "Dialogues/VillageBusinesses/FLETCHER/",
+      "speaker": "Fletcher",
+      "genericTitle": "Fletcher",
+      "genericDescription": "Creates arrows using feathers and wood.",
+      "employees": [
+        {
+          "employeeName": "Fletcher",
+          "initialPay": 14,
+          "salary": 14,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Assembler",
+          "initialPay": 5,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "isCoreBusiness": "true",
+      "businessType": "106",
+      "producesProducts": "true",
+      "money": 350,
+      "productionCap": 3,
+      "dailyMoneyCap": 300,
+      "villageType": 2,
+      "title": "Village Mine/Ore Pit/Iron Hollow",
+      "description": "Ore is pulled from the rock by hardy miners./The clink of pickaxes echoes through the stone./Veins of iron, tin, and copper feed the forge.",
+      "dialoguePath": "Dialogues/VillageBusinesses/MINE/",
+      "speaker": "Mine Foreman",
+      "genericTitle": "Mine",
+      "genericDescription": "Extracts ore from underground deposits.",
+      "employees": [
+        {
+          "employeeName": "Mine Foreman",
+          "initialPay": 16,
+          "salary": 16,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Miner",
+          "initialPay": 6,
+          "salary": 6,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "107",
+      "producesProducts": "true",
+      "money": 300,
+      "productionCap": 2,
+      "dailyMoneyCap": 250,
+      "villageType": 2,
+      "title": "Stone Cutter's Yard/Rock Shaper/Blocksmith",
+      "description": "Blocks of stone are carved and shaped for use across the realm./Dust and chisel chips cover every surface./Here, raw stone becomes something usable.",
+      "dialoguePath": "Dialogues/VillageBusinesses/STONECUTTER/",
+      "speaker": "Stonecutter",
+      "genericTitle": "Stonecutter",
+      "genericDescription": "Cuts raw stone into usable blocks.",
+      "employees": [
+        {
+          "employeeName": "Stonecutter",
+          "initialPay": 14,
+          "salary": 14,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Stone Hauler",
+          "initialPay": 5,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "108",
+      "producesProducts": "true",
+      "money": 250,
+      "productionCap": 1,
+      "dailyMoneyCap": 250,
+      "villageType": 2,
+      "title": "Gem Polisher/Jeweler's Hut/Crystal Bench",
+      "description": "Raw gems are cleaned and prepared for noble hands./A keen eye and a steady hand turn stone into splendor./The village\u2019s most delicate craft.",
+      "dialoguePath": "Dialogues/VillageBusinesses/JEWELER/",
+      "speaker": "Jeweler",
+      "genericTitle": "Jeweler",
+      "genericDescription": "Polishes gems into valuable items for trade.",
+      "employees": [
+        {
+          "employeeName": "Jeweler",
+          "initialPay": 16,
+          "salary": 16,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Gem Polisher",
+          "initialPay": 6,
+          "salary": 6,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "isCoreBusiness": "true",
+      "businessType": "109",
+      "producesProducts": "true",
+      "money": 300,
+      "productionCap": 2,
+      "dailyMoneyCap": 250,
+      "villageType": 3,
+      "title": "Ale Brewery/Grain & Hops Shed/Fermenter's Barn",
+      "description": "Hops and grain are fermented into drinkable joy./Warm fires and full casks fill this shed./It smells of yeast and good times.",
+      "dialoguePath": "Dialogues/VillageBusinesses/BREWERS_SHED/",
+      "speaker": "Brewer",
+      "genericTitle": "Brewery",
+      "genericDescription": "Produces ale and mead from grain and hops.",
+      "employees": [
+        {
+          "employeeName": "Brewer",
+          "initialPay": 14,
+          "salary": 14,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Brew Assistant",
+          "initialPay": 5,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "110",
+      "producesProducts": "true",
+      "money": 250,
+      "productionCap": 2,
+      "dailyMoneyCap": 250,
+      "villageType": 3,
+      "title": "Potion Maker/Botanic Works/Herbal Vials",
+      "description": "Potent herbs are dried and used in tinctures and potions./Flasks and bundles hang from every beam./This is where nature becomes remedy.",
+      "dialoguePath": "Dialogues/VillageBusinesses/BOTANIST/",
+      "speaker": "Botanist",
+      "genericTitle": "Potion Maker",
+      "genericDescription": "Processes herbs into potions or alchemical products.",
+      "employees": [
+        {
+          "employeeName": "Botanist",
+          "initialPay": 15,
+          "salary": 15,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Herb Grinder",
+          "initialPay": 5,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "111",
+      "producesProducts": "true",
+      "money": 250,
+      "productionCap": 1,
+      "dailyMoneyCap": 200,
+      "villageType": 3,
+      "title": "Herbalist's Hut/Wild Herb Den/Healing Table",
+      "description": "Wild herbs are sorted and sold to healers and potionmakers./Every leaf has a purpose here./The air smells of mint and moss.",
+      "dialoguePath": "Dialogues/VillageBusinesses/HERBALIST_HUT/",
+      "speaker": "Herbalist",
+      "genericTitle": "Herbalist",
+      "genericDescription": "Sorts and prepares wild herbs for healing and potion use.",
+      "employees": [
+        {
+          "employeeName": "Herbalist",
+          "initialPay": 14,
+          "salary": 14,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Leaf Sorter",
+          "initialPay": 4,
+          "salary": 4,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "isCoreBusiness": "true",
+      "businessType": "112",
+      "producesProducts": "true",
+      "money": 300,
+      "productionCap": 3,
+      "dailyMoneyCap": 300,
+      "villageType": 4,
+      "title": "Sheep Farm/Wool Shed/Lamb Pen",
+      "description": "Wool and lamb meat are collected from sheep raised nearby./A chorus of bleats rings out from the hills./The smell of lanolin lingers.",
+      "dialoguePath": "Dialogues/VillageBusinesses/SHEPHERDS_HUT/",
+      "speaker": "Shepherd",
+      "genericTitle": "Sheep Farm",
+      "genericDescription": "Collects wool and meat from sheep.",
+      "employees": [
+        {
+          "employeeName": "Shepherd",
+          "initialPay": 13,
+          "salary": 13,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Wool Handler",
+          "initialPay": 5,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "113",
+      "producesProducts": "true",
+      "money": 250,
+      "productionCap": 2,
+      "dailyMoneyCap": 250,
+      "villageType": 4,
+      "title": "Wool Spinner/Thread Weaver/Loom House",
+      "description": "Clean wool is spun into threads and cloth./Wheels turn constantly in this cozy shop./Wool becomes warmth here.",
+      "dialoguePath": "Dialogues/VillageBusinesses/WEAVING_SHED/",
+      "speaker": "Weaver",
+      "genericTitle": "Weaver",
+      "genericDescription": "Spins wool into threads and cloth.",
+      "employees": [
+        {
+          "employeeName": "Weaver",
+          "initialPay": 14,
+          "salary": 14,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Thread Spinner",
+          "initialPay": 5,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "114",
+      "producesProducts": "true",
+      "money": 200,
+      "productionCap": 1,
+      "dailyMoneyCap": 150,
+      "villageType": 4,
+      "title": "Dye Works/Color Hall/Pigment Nook",
+      "description": "Cloth is colored with dyes from plants and insects./Bright linens hang out to dry in the sun./Nothing plain leaves this place.",
+      "dialoguePath": "Dialogues/VillageBusinesses/DYE_WORKS/",
+      "speaker": "Dyer",
+      "genericTitle": "Dyer",
+      "genericDescription": "Dyes fabrics using plants and minerals.",
+      "employees": [
+        {
+          "employeeName": "Dyer",
+          "initialPay": 13,
+          "salary": 13,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Color Mixer",
+          "initialPay": 5,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "isCoreBusiness": "true",
+      "businessType": "115",
+      "producesProducts": "true",
+      "money": 250,
+      "productionCap": 3,
+      "dailyMoneyCap": 250,
+      "villageType": 5,
+      "title": "Village Apiary/Bee Yard/Honey Shed",
+      "description": "Honey and beeswax are collected from tended hives./The air hums with the sound of workers and bees./Golden nectar drips from the combs.",
+      "dialoguePath": "Dialogues/VillageBusinesses/BEEHIVES/",
+      "speaker": "Beekeeper",
+      "genericTitle": "Apiary",
+      "genericDescription": "Collects honey and beeswax from local hives.",
+      "employees": [
+        {
+          "employeeName": "Beekeeper",
+          "initialPay": 14,
+          "salary": 14,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Comb Scraper",
+          "initialPay": 5,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    },
+    {
+      "businessType": "116",
+      "producesProducts": "true",
+      "money": 220,
+      "productionCap": 2,
+      "dailyMoneyCap": 200,
+      "villageType": 5,
+      "title": "Herbal Dryhouse/Pollen Shed/Nectar Bench",
+      "description": "Wild herbs and pollen are dried here for use in potions and healing goods./The scent of flowers and herbs drifts in the warm air./Everything is stored for use in town apothecaries.",
+      "dialoguePath": "Dialogues/VillageBusinesses/DRYHOUSE/",
+      "speaker": "Drymaster",
+      "genericTitle": "Herb Dryer",
+      "genericDescription": "Dries herbs and pollen gathered near hives for use in alchemy.",
+      "employees": [
+        {
+          "employeeName": "Drymaster",
+          "initialPay": 14,
+          "salary": 14,
+          "efficiency": "MASTER",
+          "count": 1,
+          "maxCount": 1,
+          "keyWorker": true
+        },
+        {
+          "employeeName": "Herb Drier",
+          "initialPay": 5,
+          "salary": 5,
+          "efficiency": "NOVICE",
+          "count": 0,
+          "maxCount": 2,
+          "keyWorker": false
+        }
+      ]
+    }
+  ]
+}

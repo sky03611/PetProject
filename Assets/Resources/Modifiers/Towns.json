@@ -1,0 +1,157 @@
+{
+  "Items": [
+      {
+        "modifierName": "Grand Market Opening",
+        "modifierDescription": "The grand market has opened its gates, attracting traders from distant lands and offering exotic goods.",
+        "resourceYield": "1.1f",
+        "productionSpeed": "1.05f",
+        "morale": "1",
+        "seasons": "0,1,2,3",
+        "maxDays": 7
+      },
+      {
+        "modifierName": "Silver Veins Discovered",
+        "modifierDescription": "A new silver vein has been discovered near the town, bringing wealth and spurring trade.",
+        "resourceYield": "1.2f",
+        "productionSpeed": "1.1f",
+        "morale": "2",
+        "seasons": "0,1",
+        "maxDays": 6
+      },
+      {
+        "modifierName": "Cultural Revelations",
+        "modifierDescription": "Dignitaries and scholars from distant lands have arrived, bringing knowledge, art, and rare commodities.",
+        "resourceYield": "1.1f",
+        "productionSpeed": "1.05f",
+        "morale": "1",
+        "seasons": "0,1,3",
+        "maxDays": 7
+      },
+      {
+        "modifierName": "Merchant’s Revolt",
+        "modifierDescription": "Merchants are striking over high fees, disrupting trade and causing delays in goods deliveries.",
+        "resourceYield": "0.9f",
+        "productionSpeed": "0.95f",
+        "morale": "-1",
+        "seasons": "2",
+        "maxDays": 5
+      },
+      {
+        "modifierName": "New Taxation Edict",
+        "modifierDescription": "The town council has implemented new taxes to fund infrastructure, raising costs for the populace.",
+        "resourceYield": "0.85f",
+        "productionSpeed": "0.9f",
+        "morale": "-2",
+        "seasons": "0,1,3",
+        "maxDays": 6
+      },
+      {
+        "modifierName": "Underground Contraband",
+        "modifierDescription": "A network of smugglers is moving illegal goods through secret tunnels, inflating the prices of certain items.",
+        "resourceYield": "1.05f",
+        "productionSpeed": "1.1f",
+        "morale": "-1",
+        "seasons": "0,1,2,3",
+        "maxDays": 7
+      },
+      {
+        "modifierName": "Royal Arrival",
+        "modifierDescription": "The royal family has paid a visit, bringing wealth and prestige, but also creating tension with the common folk.",
+        "resourceYield": "0.95f",
+        "productionSpeed": "1.05f",
+        "morale": "-1",
+        "seasons": "1",
+        "maxDays": 5
+      },
+      {
+        "modifierName": "Households in Decline",
+        "modifierDescription": "Several influential merchant houses have gone bankrupt, causing a local economic downturn.",
+        "resourceYield": "0.85f",
+        "productionSpeed": "0.9f",
+        "morale": "-2",
+        "seasons": "2",
+        "maxDays": 4
+      },
+      {
+        "modifierName": "Festival of the Sun",
+        "modifierDescription": "A grand celebration of the summer solstice is underway, bringing a flurry of activity and higher prices for food and lodgings.",
+        "resourceYield": "1.1f",
+        "productionSpeed": "1.1f",
+        "morale": "1",
+        "seasons": "3",
+        "maxDays": 7
+      },
+      {
+        "modifierName": "Guild Monopoly Tightens",
+        "modifierDescription": "The merchant guild has grown more powerful, reducing competition and raising the cost of imported goods.",
+        "resourceYield": "1.05f",
+        "productionSpeed": "0.95f",
+        "morale": "-1",
+        "seasons": "0,1",
+        "maxDays": 6
+      },
+      {
+        "modifierName": "Population Census",
+        "modifierDescription": "A population census is underway, slowing down public services and leading to delays in registration and trade.",
+        "resourceYield": "0.9f",
+        "productionSpeed": "0.95f",
+        "morale": "-1",
+        "seasons": "0,1",
+        "maxDays": 4
+      },
+      {
+        "modifierName": "Craftsmen Flourish",
+        "modifierDescription": "A wave of talented craftsmen has settled in town, bringing an abundance of finely crafted goods to the market.",
+        "resourceYield": "1.2f",
+        "productionSpeed": "1.1f",
+        "morale": "1",
+        "seasons": "0,3",
+        "maxDays": 7
+      },
+      {
+        "modifierName": "Bandit Raids Intensify",
+        "modifierDescription": "Bandit activity on trade routes has escalated, raising the risk for merchants and causing supply shortages.",
+        "resourceYield": "0.8f",
+        "productionSpeed": "0.85f",
+        "morale": "-1",
+        "seasons": "1,2",
+        "maxDays": 5
+      },
+      {
+        "modifierName": "Bad Harvest Year",
+        "modifierDescription": "The surrounding farmlands have suffered a poor harvest, leading to food shortages and inflated prices within the town.",
+        "resourceYield": "0.7f",
+        "productionSpeed": "0.8f",
+        "morale": "-2",
+        "seasons": "2",
+        "maxDays": 4
+      },
+      {
+        "modifierName": "Noble District Development",
+        "modifierDescription": "A new noble district is being constructed, raising property values but increasing the cost of living for the common folk.",
+        "resourceYield": "1.05f",
+        "productionSpeed": "1f",
+        "morale": "-1",
+        "seasons": "0,1",
+        "maxDays": 5
+      },
+      {
+        "modifierName": "Military Contracts",
+        "modifierDescription": "The town has secured lucrative contracts to supply goods for the noble armies, raising demand and inflating prices.",
+        "resourceYield": "1.15f",
+        "productionSpeed": "1.1f",
+        "morale": "0",
+        "seasons": "0,1",
+        "maxDays": 6
+      },
+      {
+        "modifierName": "Plague of Rot",
+        "modifierDescription": "A fungal outbreak is spreading throughout the town, reducing productivity and affecting trade goods.",
+        "resourceYield": "0.75f",
+        "productionSpeed": "0.8f",
+        "morale": "-2",
+        "seasons": "2",
+        "maxDays": 4
+      }
+  ]
+}

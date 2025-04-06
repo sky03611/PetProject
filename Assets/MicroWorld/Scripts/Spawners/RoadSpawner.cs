@@ -87,6 +87,7 @@ namespace MicroWorldNS.Spawners
                     RoadPrefab = Resources.Load<MeshRenderer>("Road");
 
                 var go = Instantiate(RoadPrefab, Terrain.transform);
+                go.transform.position += new Vector3(0, 0.35f, 0);
                 var mf = go.GetOrAddComponent<MeshFilter>();
                 mf.sharedMesh = IsMesh ? mesh : null;
                 if (Material)

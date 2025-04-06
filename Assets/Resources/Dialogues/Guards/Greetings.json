@@ -1,0 +1,109 @@
+{
+  "Items": [
+    {
+      "dialogue": "Hail, traveler. The road is long and perilous, but you are safe under our watch. Proceed with caution.",
+      "answer1": {
+        "answerText": "Who do you serve?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Continue your patrol, soldiers.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": null,
+      "answer4": null
+    },
+    {
+      "dialogue": "We patrol these roads in service of the realm. Do you seek passage, or is there trouble ahead?",
+      "answer1": {
+        "answerText": "Who do you serve?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "May your swords stay sharp, soldiers.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": null,
+      "answer4": null
+    },
+    {
+      "dialogue": "The road is ours to guard. We stand ready to protect those who pass with honor.",
+      "answer1": {
+        "answerText": "Who do you serve?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Carry on, lads.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": null,
+      "answer4": null
+    },
+    {
+      "dialogue": "You walk these roads under the watchful eyes of soldiers sworn to protect. What brings you to our path?",
+      "answer1": {
+        "answerText": "Who do you serve?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Continue your work, soldiers.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": null,
+      "answer4": null
+    },
+    {
+      "dialogue": "No matter where you tread, the road remains safe under our protection. May your journey be swift and without danger.",
+      "answer1": {
+        "answerText": "Who do you serve?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "May your strikes be swift, soldiers.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": null,
+      "answer4": null
+    }
+  ]
+}

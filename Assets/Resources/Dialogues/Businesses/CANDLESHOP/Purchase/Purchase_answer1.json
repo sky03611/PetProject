@@ -1,0 +1,18 @@
+{
+  "Items": [
+    {
+      "dialogue": "The shop is now yours. May your light never flicker.",
+      "answer1": {
+        "answerText": "Good!",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": null,
+      "answer3": null,
+      "answer4": null
+    }
+  ]
+}

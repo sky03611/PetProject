@@ -1,0 +1,306 @@
+{
+  "Items": [
+    {
+      "itemName": "Grain",
+      "itemDescription": "A staple crop that sustains both man and beast. It can be ground into flour for bread or brewed into ale.",
+      "type": 0,
+      "businessTypess": "6",
+      "amount": 1,
+      "defaultPrice": 10
+    },
+    {
+      "itemName": "Deer Meat",
+      "itemDescription": "Rich and hearty, this meat is prized for its flavor and nourishment, especially during harsh winters.",
+      "type": 0,
+      "businessTypess": "1,3",
+      "amount": 1,
+      "defaultPrice": 15
+    },
+    {
+      "itemName": "Deer Pelt",
+      "itemDescription": "A thick, warm pelt from a wild deer, perfect for crafting garments or trading with those in need of protection from the cold.",
+      "type": 1,
+      "businessTypess": "4",
+      "amount": 1,
+      "defaultPrice": 40
+    },
+    {
+      "itemName": "Rabbit Fur",
+      "itemDescription": "Soft and light, this fur is often used in crafting light garments or as a base for fine leatherworking.",
+      "type": 1,
+      "businessTypess": "4",
+      "amount": 1,
+      "defaultPrice": 20
+    },
+    {
+      "itemName": "Iron Ore",
+      "itemDescription": "A sturdy, heavy material, essential for forging weapons and armor that can withstand even the fiercest of battles.",
+      "type": 1,
+      "businessTypess": "2",
+      "amount": 1,
+      "defaultPrice": 50
+    },
+    {
+      "itemName": "Copper Ore",
+      "itemDescription": "A reddish metal, prized for its use in creating tools and ornaments. It’s not as strong as iron, but still valuable.",
+      "type": 1,
+      "businessTypess": "2",
+      "amount": 1,
+      "defaultPrice": 40
+    },
+    {
+      "itemName": "Tin Ore",
+      "itemDescription": "A pale metal that, when combined with copper, forms bronze—a key material in the crafting of weapons and armor.",
+      "type": 1,
+      "businessTypess": "2",
+      "amount": 1,
+      "defaultPrice": 35
+    },
+    {
+      "itemName": "Gems",
+      "itemDescription": "Precious stones that gleam with a rare beauty. These are highly sought after by traders, jewelers, and mages alike.",
+      "type": 1,
+      "amount": 1,
+      "defaultPrice": 120
+    },
+    {
+      "itemName": "Ale",
+      "itemDescription": "A rich, fermented drink brewed from barley and hops. It brings warmth to the weary and mirth to the men around the fire.",
+      "type": 0,
+      "businessTypess": "3",
+      "amount": 1,
+      "defaultPrice": 15
+    },
+    {
+      "itemName": "Mead",
+      "itemDescription": "A honeyed drink brewed by bees, prized by many for its sweet taste and mild intoxication. It’s a favorite among bards and warriors alike.",
+      "type": 0,
+      "businessTypess": "3",
+      "amount": 1,
+      "defaultPrice": 20
+    },
+    {
+      "itemName": "Wool",
+      "itemDescription": "A soft and insulating fiber, sheared from the sheep, it is spun into threads to make warm garments for cold nights.",
+      "type": 1,
+      "businessTypess": "4",
+      "amount": 1,
+      "defaultPrice": 30
+    },
+    {
+      "itemName": "Lamb Meat",
+      "itemDescription": "Tender and flavorful, lamb meat is considered a delicacy among many, often cooked over an open flame to bring out its rich taste.",
+      "type": 0,
+      "businessTypess": "1,3",
+      "amount": 1,
+      "defaultPrice": 25
+    },
+    {
+      "itemName": "Linen",
+      "itemDescription": "A fine cloth made from flax, valued for its breathability and smooth texture. Often used for making light, summer garments.",
+      "type": 1,
+      "businessTypess": "4",
+      "amount": 1,
+      "defaultPrice": 40
+    },
+    {
+      "itemName": "Honey",
+      "itemDescription": "Sweet, golden nectar harvested from the hives. It’s used both as a food and for its medicinal properties, especially in healing salves.",
+      "type": 0,
+      "businessTypess": "3,5",
+      "amount": 1,
+      "defaultPrice": 30
+    },
+    {
+      "itemName": "Beeswax",
+      "itemDescription": "A natural wax produced by bees, used for sealing, crafting, and even for lighting lamps. It’s versatile and valuable in many forms.",
+      "type": 1,
+      "businessTypess": "5",
+      "amount": 1,
+      "defaultPrice": 35
+    },
+    {
+      "itemName": "Iron Sword",
+      "itemDescription": "A sturdy blade forged from iron. Reliable in any skirmish.",
+      "type": 3,
+      "amount": 1,
+      "defaultPrice": 150
+    },
+    {
+      "itemName": "Smoked Meat",
+      "itemDescription": "Cured meat that lasts long and travels well. A favorite among caravaners.",
+      "type": 0,
+      "amount": 1,
+      "defaultPrice": 30
+    },
+    {
+      "itemName": "Wool Tunic",
+      "itemDescription": "A warm, simple tunic made from thick wool. Keeps the cold out.",
+      "type": 2,
+      "amount": 1,
+      "defaultPrice": 90
+    },
+    {
+      "itemName": "Tallow Candle",
+      "itemDescription": "A simple candle made from tallow. Provides basic light for several hours.",
+      "type": 1,
+      "amount": 1,
+      "defaultPrice": 25
+    },
+    {
+      "itemName": "Sack of Flour",
+      "itemDescription": "Ground grain ready for baking or trade. A staple for any kitchen.",
+      "type": 0,
+      "amount": 1,
+      "defaultPrice": 30
+    },
+    {
+      "itemName": "Grilled Lamb",
+      "itemDescription": "Lamb meat grilled to perfection, served hot and juicy. A tavern favorite.",
+      "type": 0,
+      "amount": 1,
+      "defaultPrice": 35
+    },
+    {
+      "itemName": "Copper Knife",
+      "itemDescription": "A basic copper blade. Not as strong as iron, but better than bare fists.",
+      "type": 3,
+      "amount": 1,
+      "defaultPrice": 60
+    },
+    {
+      "itemName": "Bronze Spear",
+      "itemDescription": "A spear made of bronze, combining copper and tin. Balanced and sharp.",
+      "type": 3,
+      "amount": 1,
+      "defaultPrice": 90
+    },
+    {
+      "itemName": "Fur Cloak",
+      "itemDescription": "A thick cloak made from rabbit fur. Warm and light, perfect for travelers.",
+      "type": 2,
+      "amount": 1,
+      "defaultPrice": 70
+    },
+    {
+      "itemName": "Linen Robe",
+      "itemDescription": "A flowing robe made from fine linen. Cool and breathable, ideal for warm climates.",
+      "type": 2,
+      "amount": 1,
+      "defaultPrice": 75
+    },
+    {
+      "itemName": "Leather Vest",
+      "itemDescription": "A durable vest crafted from deer pelt. Offers modest protection and warmth.",
+      "type": 2,
+      "amount": 1,
+      "defaultPrice": 85
+    },
+    {
+      "itemName": "Scented Candle",
+      "itemDescription": "A delicately crafted candle infused with honey. Pleasantly aromatic and prized by nobles and clergy alike.",
+      "type": 1,
+      "amount": 1,
+      "defaultPrice": 35
+    },
+    {
+      "itemName": "Vegetables",
+      "itemDescription": "Fresh root and leaf vegetables, harvested from small garden plots.",
+      "type": 0,
+      "businessTypess": "3",
+      "amount": 1,
+      "defaultPrice": 12
+    },
+    {
+      "itemName": "Fruits",
+      "itemDescription": "Juicy, sun-ripened fruits picked straight from orchard trees.",
+      "type": 0,
+      "businessTypess": "3",
+      "amount": 1,
+      "defaultPrice": 14
+    },
+    {
+      "itemName": "Small Game Meat",
+      "itemDescription": "Lean cuts from rabbits and birds caught in the wild.",
+      "type": 0,
+      "businessTypess": "1",
+      "amount": 1,
+      "defaultPrice": 18
+    },
+    {
+      "itemName": "Feathers",
+      "itemDescription": "Cleaned feathers used for arrows, bedding, or fletching.",
+      "type": 1,
+      "businessTypess": "2",
+      "amount": 1,
+      "defaultPrice": 10
+    },
+    {
+      "itemName": "Stone Blocks",
+      "itemDescription": "Rough-hewn stone blocks ready for construction or carving.",
+      "type": 1,
+      "amount": 1,
+      "defaultPrice": 20
+    },
+    {
+      "itemName": "Hops",
+      "itemDescription": "Aromatic flower cones used to bitter and flavor ale.",
+      "type": 0,
+      "businessTypess": "5",
+      "amount": 1,
+      "defaultPrice": 15
+    },
+    {
+      "itemName": "Wild Herbs",
+      "itemDescription": "A bundle of fragrant herbs gathered from meadows and woodland.",
+      "type": 0,
+      "businessTypess": "5",
+      "amount": 1,
+      "defaultPrice": 22
+    },
+    {
+      "itemName": "Clean Wool",
+      "itemDescription": "Washed and carded wool, ready for spinning or weaving.",
+      "type": 1,
+      "businessTypess": "4",
+      "amount": 1,
+      "defaultPrice": 35
+    },
+    {
+      "itemName": "Small Game Sausage",
+      "itemDescription": "A smoked sausage made from small game meat, perfect for long journeys.",
+      "type": 0,
+      "businessTypess": "3",
+      "amount": 1,
+      "defaultPrice": 28
+    },
+    {
+      "itemName": "Arrow Bundle",
+      "itemDescription": "A bundle of sharp arrows, fletched with feathers for accurate flight.",
+      "type": 3,
+      "amount": 1,
+      "defaultPrice": 45
+    },
+    {
+      "itemName": "Wool Cloak",
+      "itemDescription": "A heavy, woven cloak made from clean wool. Perfect for cold nights.",
+      "type": 2,
+      "amount": 1,
+      "defaultPrice": 95
+    },
+    {
+      "itemName": "Herbal Potion",
+      "itemDescription": "A simple tonic brewed from wild herbs. Used for minor wounds and fatigue.",
+      "type": 0,
+      "amount": 1,
+      "defaultPrice": 40
+    },
+    {
+      "itemName": "Incense Bundle",
+      "itemDescription": "A tightly packed bundle of fragrant herbs and hops, burned to calm the spirit.",
+      "type": 1,
+      "amount": 1,
+      "defaultPrice": 30
+    }
+  ]
+}

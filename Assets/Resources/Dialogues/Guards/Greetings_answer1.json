@@ -1,0 +1,18 @@
+{
+  "Items": [
+    {
+      "dialogue": "We serve the noble HOUSE. MOTTO",
+      "answer1": {
+        "answerText": "Carry on, soldiers.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": null,
+      "answer3": null,
+      "answer4": null
+    }
+  ]
+}

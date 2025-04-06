@@ -1,0 +1,201 @@
+{
+  "Items": [
+      {
+        "modifierName": "Bountiful Harvest",
+        "modifierDescription": "The crops are flourishing this season, providing the village with a surplus of food.",
+        "settlementType": "0",
+        "resourceYield": "1.4f",
+        "morale": "1",
+        "seasons": "0,3",
+        "maxDays": 7
+      },
+      {
+        "modifierName": "Plentiful Game",
+        "modifierDescription": "A season of abundance brings plenty of venison and pelts to the village.",
+        "settlementType": "1",
+        "resourceYield": "1.25f",
+        "morale": "1",
+        "seasons": "0,3",
+        "maxDays": 6
+      },
+      {
+        "modifierName": "Rich Veins",
+        "modifierDescription": "The mines have yielded more ore than expected, boosting production and wealth in the village.",
+        "settlementType": "2",
+        "resourceYield": "1.5f",
+        "productionSpeed": "1.2f",
+        "morale": "1",
+        "seasons": "1,2",
+        "maxDays": 5
+      },
+      {
+        "modifierName": "Aleheart's Bounty",
+        "modifierDescription": "A new brew is highly popular, increasing the output of the brewery and the village’s wealth.",
+        "settlementType": "3",
+        "resourceYield": "1.4f",
+        "productionSpeed": "1.3f",
+        "morale": "1",
+        "seasons": "0",
+        "maxDays": 4
+      },
+      {
+        "modifierName": "Wool for the Weavers",
+        "modifierDescription": "The sheep have yielded a large amount of wool this season, aiding in the production of textiles.",
+        "settlementType": "4",
+        "resourceYield": "1.3f",
+        "morale": "1",
+        "seasons": "0,3",
+        "maxDays": 6
+      },
+      {
+        "modifierName": "Honey of the Hive",
+        "modifierDescription": "The bees are busy, and the village sees an abundance of honey and wax.",
+        "settlementType": "5",
+        "resourceYield": "1.5f",
+        "morale": "2",
+        "seasons": "3",
+        "maxDays": 5
+      },
+      {
+        "modifierName": "Flooded Fields",
+        "modifierDescription": "Heavy rains have flooded the fields, damaging crops and reducing the harvest.",
+        "settlementType": "0",
+        "resourceYield": "0.5f",
+        "morale": "-1",
+        "seasons": "2",
+        "maxDays": 4
+      },
+      {
+        "modifierName": "Empty Traps",
+        "modifierDescription": "The hunting grounds are less abundant this season, and the traps remain empty.",
+        "settlementType": "1",
+        "resourceYield": "0.4f",
+        "morale": "-1",
+        "seasons": "1,2",
+        "maxDays": 3
+      },
+      {
+        "modifierName": "Dwindling Mines",
+        "modifierDescription": "The mines are running low on ore, and production has slowed significantly.",
+        "settlementType": "2",
+        "resourceYield": "0.6f",
+        "productionSpeed": "0.8f",
+        "morale": "-1",
+        "seasons": "0,1",
+        "maxDays": 5
+      },
+      {
+        "modifierName": "Spoiled Brew",
+        "modifierDescription": "A batch of brew has gone bad, halting production and leading to losses for the village brewery.",
+        "settlementType": "3",
+        "resourceYield": "0f",
+        "productionSpeed": "0f",
+        "morale": "-2",
+        "seasons": "2",
+        "maxDays": 3
+      },
+      {
+        "modifierName": "Shorn Sheep",
+        "modifierDescription": "The wool yield is lower than usual due to a cold spring, reducing textile production.",
+        "settlementType": "4",
+        "resourceYield": "0.6f",
+        "morale": "-1",
+        "seasons": "2",
+        "maxDays": 4
+      },
+      {
+        "modifierName": "Bee Disease",
+        "modifierDescription": "A disease has affected the hives, leading to a reduced honey harvest this season.",
+        "settlementType": "5",
+        "resourceYield": "0.4f",
+        "morale": "-2",
+        "seasons": "2",
+        "maxDays": 3
+      },
+      {
+        "modifierName": "New Settlers",
+        "modifierDescription": "New settlers have arrived, and the settlement is growing in size and wealth.",
+        "settlementType": "6",
+        "resourceYield": "1.2f",
+        "morale": "2",
+        "seasons": "0,3",
+        "maxDays": 7
+      },
+      {
+        "modifierName": "Sickness",
+        "modifierDescription": "A plague has spread through the settlement, reducing productivity and morale.",
+        "settlementType": "6",
+        "resourceYield": "0.7f",
+        "productionSpeed": "0.5f",
+        "morale": "-2",
+        "seasons": "2",
+        "maxDays": 4
+      },
+      {
+        "modifierName": "Caravan Arrives",
+        "modifierDescription": "A caravan of traders has come to town, bringing rare goods and boosting the economy.",
+        "settlementType": "6",
+        "resourceYield": "1.3f",
+        "morale": "1",
+        "seasons": "0",
+        "maxDays": 5
+      },
+      {
+        "modifierName": "Harvest Festival",
+        "modifierDescription": "The settlement celebrates the harvest with a feast, improving morale and stimulating trade.",
+        "settlementType": "6",
+        "morale": "2",
+        "resourceYield": "1.1f",
+        "seasons": "3",
+        "maxDays": 7
+      },
+      {
+        "modifierName": "Trade Disrupted",
+        "modifierDescription": "Trade routes are blocked, reducing the availability of goods and lowering settlement wealth.",
+        "settlementType": "6",
+        "resourceYield": "0.8f",
+        "productionSpeed": "0.9f",
+        "morale": "-1",
+        "seasons": "1,2",
+        "maxDays": 4
+      },
+      {
+        "modifierName": "Starving Settlement",
+        "modifierDescription": "The harsh winter has led to food shortages, reducing production and lowering morale.",
+        "settlementType": "6",
+        "resourceYield": "0.6f",
+        "productionSpeed": "0.7f",
+        "morale": "-2",
+        "seasons": "2",
+        "maxDays": 3
+      },
+      {
+        "modifierName": "Building Boom",
+        "modifierDescription": "The settlement is experiencing a construction boom, with new buildings being erected and production increasing.",
+        "settlementType": "6",
+        "resourceYield": "1.2f",
+        "productionSpeed": "1.15f",
+        "morale": "1",
+        "seasons": "0",
+        "maxDays": 6
+      },
+      {
+        "modifierName": "Peasants Revolt",
+        "modifierDescription": "A revolt has broken out in the settlement, causing unrest and disrupting production.",
+        "settlementType": "6",
+        "morale": "-2",
+        "productionSpeed": "0.7f",
+        "seasons": "1",
+        "maxDays": 3
+      },
+      {
+        "modifierName": "Fertile Fields",
+        "modifierDescription": "New farming methods have improved the yields of crops, helping feed the growing settlement.",
+        "settlementType": "6",
+        "resourceYield": "1.2f",
+        "morale": "1",
+        "seasons": "0,3",
+        "maxDays": 7
+      }
+  ]
+}

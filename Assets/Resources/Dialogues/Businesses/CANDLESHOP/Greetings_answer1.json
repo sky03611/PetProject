@@ -1,0 +1,18 @@
+{
+  "Items": [
+    {
+      "dialogue": "HOUSE owns BUSINESSTITLE. They’ve kept its flame alive through many winters.",
+      "answer1": {
+        "answerText": "Got it.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": null,
+      "answer3": null,
+      "answer4": null
+    }
+  ]
+}

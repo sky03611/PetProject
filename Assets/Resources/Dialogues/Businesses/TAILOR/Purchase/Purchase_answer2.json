@@ -1,0 +1,18 @@
+{
+  "Items": [
+    {
+      "dialogue": "I appreciate ambition, but ambition alone won’t pay the price. Come back with the coin.",
+      "answer1": {
+        "answerText": "Nevermind.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": null,
+      "answer3": null,
+      "answer4": null
+    }
+  ]
+}

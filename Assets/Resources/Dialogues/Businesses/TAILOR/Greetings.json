@@ -1,0 +1,88 @@
+{
+  "Items": [
+    {
+      "dialogue": "Only a fool ignores the stitch that holds the world together. What do you need?",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    },
+    {
+      "dialogue": "From noble cloaks to humble tunics — I craft them all with care.",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    },
+    {
+      "dialogue": "The cut, the cloth, the care — that’s what makes a true tailor.",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    }
+  ]
+}

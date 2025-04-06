@@ -1,0 +1,88 @@
+{
+  "Items": [
+    {
+      "dialogue": "Grain’s flowing, gears are turning. What brings you to the mill?",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    },
+    {
+      "dialogue": "The wheel never stops — not for weather, not for war. What can I do for you?",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    },
+    {
+      "dialogue": "If you’ve grain, I’ve the stone to grind it. Simple trade, simple truth.",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    }
+  ]
+}

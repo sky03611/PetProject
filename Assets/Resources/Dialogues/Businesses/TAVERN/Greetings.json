@@ -1,0 +1,144 @@
+{
+  "Items": [
+    {
+      "dialogue": "Come in, come in! The ale's cold, the stew's hot, and the tales are free.",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    },
+    {
+      "dialogue": "If you’re thirsty or nosy, you’ll find what you want here.",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    },
+    {
+      "dialogue": "BUSINESSTITLE welcomes all — even ones with coin to burn.",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    },
+    {
+      "dialogue": "You look like you could use a drink or a deal. Which is it?",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    },
+    {
+      "dialogue": "Spirits are high and mugs are full. What can I do for you, stranger?",
+      "answer1": {
+        "answerText": "Who owns this place?",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer1",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "I want to buy this business.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings_answer2",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": {
+        "answerText": "Farewell.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer4": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "Items": [
+    {
+      "dialogue": "HOUSE owns this forge. Their blades have shaped more than just metal.",
+      "answer1": {
+        "answerText": "Got it.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "Greetings",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": null,
+      "answer3": null,
+      "answer4": null
+    }
+  ]
+}

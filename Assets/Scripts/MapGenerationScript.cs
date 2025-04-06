@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using Pathfinding;
+using Unity.VisualScripting;
 
 namespace MicroWorldNS
 {
@@ -11,6 +12,7 @@ namespace MicroWorldNS
     {
         [SerializeField] MicroWorld MicroWorldPrefab;
         [SerializeField] private AstarPath astar;
+        [SerializeField] private GameObject player;
         [SerializeField] int StartSeed = 1;
         const int KeepWorldsCount = 1;
 
@@ -19,16 +21,15 @@ namespace MicroWorldNS
 
         private IEnumerator Start()
         {
-            // build first world
+            StartSeed = UnityEngine.Random.Range(46000, 47000);
             currentWorld = GetOrBuild(StartSeed);
-            MicroWorld.FlushBuild();// force fast build mode
+            MicroWorld.FlushBuild();
 
-            // wait for the world to be built
             while (!currentWorld.IsBuilt)
                 yield return null;
 
-            // activate world
             currentWorld.Terrain.gameObject.SetActive(true);
+            player.SetActive(true);
             astar.Scan();
         }
 
@@ -36,14 +37,11 @@ namespace MicroWorldNS
         {
             if (!worldsBySeed.TryGetValue(seed, out var world))
             {
-                // create new MicroWorld
                 world = Instantiate(MicroWorldPrefab);
 
-                // assign seed
                 world.Seed = seed;
                 worldsBySeed[seed] = world;
 
-                // start build
                 world.BuildAsync();
             }
 

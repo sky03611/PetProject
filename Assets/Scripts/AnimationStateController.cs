@@ -87,7 +87,7 @@ public class AnimationStateController : MonoBehaviour
         return false;
     }
 
-    public void HitReceived (int hitType, Direction hitDirection)
+    public virtual void HitReceived (int hitType, Direction hitDirection)
     {
         if (!isHit)
         {

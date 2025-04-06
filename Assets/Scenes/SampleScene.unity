@@ -323,6 +323,8 @@ MonoBehaviour:
   deceleration: 2
   thisEntity: {fileID: 196967634}
   cameraFocus: {fileID: 1527148010}
+  vcam: {fileID: 1527148009}
+  noise: {fileID: 0}
 --- !u!1 &258928938
 GameObject:
   m_ObjectHideFlags: 3
@@ -335,6 +337,7 @@ GameObject:
   - component: {fileID: 258928941}
   - component: {fileID: 258928940}
   - component: {fileID: 258928942}
+  - component: {fileID: 258928943}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -420,6 +423,23 @@ MonoBehaviour:
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
+--- !u!114 &258928943
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258928938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: b241f91b9ccf8ff489abf204b30d3112, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 0
+  m_FrequencyGain: 0
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &340469552 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1781356600409242780, guid: dcb19420f494336459b849bc5b0dc98c, type: 3}
@@ -2569,6 +2589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d3dbf890ec4af49be6eb27b13741ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementStopped: 0
   state: 0
   thisEntity: {fileID: 0}
   closestEnemy: {fileID: 0}

@@ -1,0 +1,399 @@
+{
+  "Items": [
+    {
+      "businessType": 1,
+      "producibleItems": [
+        {
+          "outputItemName": "Smoked Meat",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Deer Meat",
+              "inputAmount": 1
+            }
+          ]
+        },
+        {
+          "outputItemName": "Grilled Lamb",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Lamb Meat",
+              "inputAmount": 1
+            }
+          ]
+        },
+        {
+          "outputItemName": "Small Game Sausage",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Small Game Meat",
+              "inputAmount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "businessType": 2,
+      "producibleItems": [
+        {
+          "outputItemName": "Iron Sword",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Iron Ore",
+              "inputAmount": 2
+            }
+          ]
+        },
+        {
+          "outputItemName": "Copper Knife",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Copper Ore",
+              "inputAmount": 1
+            }
+          ]
+        },
+        {
+          "outputItemName": "Bronze Spear",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Copper Ore",
+              "inputAmount": 1
+            },
+            {
+              "inputItemName": "Tin Ore",
+              "inputAmount": 1
+            }
+          ]
+        },
+        {
+          "outputItemName": "Arrow Bundle",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Feathers",
+              "inputAmount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "businessType": 4,
+      "producibleItems": [
+        {
+          "outputItemName": "Wool Tunic",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Wool",
+              "inputAmount": 2
+            }
+          ]
+        },
+        {
+          "outputItemName": "Fur Cloak",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Rabbit Fur",
+              "inputAmount": 2
+            }
+          ]
+        },
+        {
+          "outputItemName": "Linen Robe",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Linen",
+              "inputAmount": 2
+            }
+          ]
+        },
+        {
+          "outputItemName": "Leather Vest",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Deer Pelt",
+              "inputAmount": 1
+            }
+          ]
+        },
+        {
+          "outputItemName": "Wool Cloak",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Clean Wool",
+              "inputAmount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "businessType": 5,
+      "producibleItems": [
+        {
+          "outputItemName": "Tallow Candle",
+          "outputAmount": 2,
+          "requiredResources": [
+            {
+              "inputItemName": "Beeswax",
+              "inputAmount": 1
+            }
+          ]
+        },
+        {
+          "outputItemName": "Scented Candle",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Honey",
+              "inputAmount": 1
+            }
+          ]
+        },
+        {
+          "outputItemName": "Herbal Potion",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Wild Herbs",
+              "inputAmount": 1
+            }
+          ]
+        },
+        {
+          "outputItemName": "Incense Bundle",
+          "outputAmount": 1,
+          "requiredResources": [
+            {
+              "inputItemName": "Hops",
+              "inputAmount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "businessType": 6,
+      "producibleItems": [
+        {
+          "outputItemName": "Sack of Flour",
+          "outputAmount": 2,
+          "requiredResources": [
+            {
+              "inputItemName": "Grain",
+              "inputAmount": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "businessType": 6,
+      "producibleItems": [
+        {
+          "outputItemName": "Sack of Flour",
+          "outputAmount": 2,
+          "requiredResources": [
+            {
+              "inputItemName": "Grain",
+              "inputAmount": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "businessType": 100,
+      "producibleItems": [
+        {
+          "outputItemName": "Grain",
+          "outputAmount": 3,
+          "requiredResources": [],
+          "spawnChance": "1f"
+        }
+      ]
+    },
+    {
+      "businessType": 101,
+      "producibleItems": [
+        {
+          "outputItemName": "Fruits",
+          "outputAmount": 2,
+          "requiredResources": [],
+          "spawnChance": "0.9f"
+        }
+      ]
+    },
+    {
+      "businessType": 102,
+      "producibleItems": [
+        {
+          "outputItemName": "Vegetables",
+          "outputAmount": 2,
+          "requiredResources": [],
+          "spawnChance": "0.9f"
+        }
+      ]
+    },
+    {
+      "businessType": 103,
+      "producibleItems": [
+        {
+          "outputItemName": "Deer Meat",
+          "outputAmount": 1,
+          "requiredResources": [],
+          "spawnChance": "0.8f"
+        },
+        {
+          "outputItemName": "Deer Pelt",
+          "outputAmount": 1,
+          "requiredResources": [],
+          "spawnChance": "0.6f"
+        },
+        {
+          "outputItemName": "Small Game Meat",
+          "outputAmount": 1,
+          "requiredResources": [],
+          "spawnChance": "0.8f"
+        },
+        {
+          "outputItemName": "Rabbit Fur",
+          "outputAmount": 1,
+          "requiredResources": [],
+          "spawnChance": "0.5f"
+        },
+        {
+          "outputItemName": "Feathers",
+          "outputAmount": 1,
+          "requiredResources": [],
+          "spawnChance": "0.7f"
+        }
+      ]
+    },
+    {
+      "businessType": 106,
+      "producibleItems": [
+        {
+          "outputItemName": "Iron Ore",
+          "outputAmount": 1,
+          "requiredResources": [],
+          "spawnChance": "0.7f"
+        },
+        {
+          "outputItemName": "Copper Ore",
+          "outputAmount": 1,
+          "requiredResources": [],
+          "spawnChance": "0.6f"
+        },
+        {
+          "outputItemName": "Tin Ore",
+          "outputAmount": 1,
+          "requiredResources": [],
+          "spawnChance": "0.5f"
+        }
+      ]
+    },
+    {
+      "businessType": 107,
+      "producibleItems": [
+        {
+          "outputItemName": "Stone Blocks",
+          "outputAmount": 2,
+          "requiredResources": [],
+          "spawnChance": "1f"
+        }
+      ]
+    },
+    {
+      "businessType": 108,
+      "producibleItems": [
+        {
+          "outputItemName": "Gems",
+          "outputAmount": 1,
+          "requiredResources": [],
+          "spawnChance": "0.3f"
+        }
+      ]
+    },
+    {
+      "businessType": 109,
+      "producibleItems": [
+        {
+          "outputItemName": "Hops",
+          "outputAmount": 2,
+          "requiredResources": [],
+          "spawnChance": "0.9f"
+        }
+      ]
+    },
+    {
+      "businessType": 110,
+      "producibleItems": [
+        {
+          "outputItemName": "Wild Herbs",
+          "outputAmount": 2,
+          "requiredResources": [],
+          "spawnChance": "0.9f"
+        }
+      ]
+    },
+    {
+      "businessType": 112,
+      "producibleItems": [
+        {
+          "outputItemName": "Wool",
+          "outputAmount": 2,
+          "requiredResources": [],
+          "spawnChance": "1f"
+        },
+        {
+          "outputItemName": "Lamb Meat",
+          "outputAmount": 1,
+          "requiredResources": [],
+          "spawnChance": "0.8f"
+        }
+      ]
+    },
+    {
+      "businessType": 113,
+      "producibleItems": [
+        {
+          "outputItemName": "Clean Wool",
+          "outputAmount": 2,
+          "requiredResources": [],
+          "spawnChance": "1f"
+        }
+      ]
+    },
+    {
+      "businessType": 115,
+      "producibleItems": [
+        {
+          "outputItemName": "Honey",
+          "outputAmount": 2,
+          "requiredResources": [],
+          "spawnChance": "0.95f"
+        },
+        {
+          "outputItemName": "Beeswax",
+          "outputAmount": 1,
+          "requiredResources": [],
+          "spawnChance": "0.6f"
+        }
+      ]
+    }
+
+  ]
+}

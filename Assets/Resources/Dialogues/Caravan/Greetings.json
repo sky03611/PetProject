@@ -1,0 +1,104 @@
+{
+  "Items": [
+    {
+      "dialogue": "Wares from across the land, all packed tight in our carts. Care to take a look?",
+      "answer1": {
+        "answerText": "Show me what you’ve brought.",
+        "action": 1,
+        "check": 0,
+        "answerFolder": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Safe travels, merchants.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": null,
+      "answer4": null
+    },
+    {
+      "dialogue": "Trade winds have been kind. We’ve got fine goods if you’ve got coin.",
+      "answer1": {
+        "answerText": "Let’s see your wares.",
+        "action": 1,
+        "check": 0,
+        "answerFolder": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Keep moving and stay safe.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": null,
+      "answer4": null
+    },
+    {
+      "dialogue": "We’ve seen roads rougher than most, but we carry goods worth the trip.",
+      "answer1": {
+        "answerText": "What’s for sale today?",
+        "action": 1,
+        "check": 0,
+        "answerFolder": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Farewell, traders.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": null,
+      "answer4": null
+    },
+    {
+      "dialogue": "New faces are always welcome. Especially ones with full purses.",
+      "answer1": {
+        "answerText": "Let me browse your goods.",
+        "action": 1,
+        "check": 0,
+        "answerFolder": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Travel well, friends.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": null,
+      "answer4": null
+    },
+    {
+      "dialogue": "The road may be long, but our deals are worth every step.",
+      "answer1": {
+        "answerText": "Show me what you’re selling.",
+        "action": 1,
+        "check": 0,
+        "answerFolder": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer2": {
+        "answerText": "Best of luck on your travels.",
+        "action": 0,
+        "check": 0,
+        "answerFolder": "",
+        "answerDialogue": "",
+        "negativeAnswerFolder": ""
+      },
+      "answer3": null,
+      "answer4": null
+    }
+  ]
+}
